@@ -1,23 +1,15 @@
 programa {
   funcao inicio() {
-       inteiro maior = 9999
-   inteiro numero
-   inteiro contador=0
+    	
+	
+		real a, b, c, d
+    escreva("ola usuario vou te ajudar a resolver rais segundo grau ")
+		leia(a, b, c)
 
-escreva("ola usuário😁\n")
-escreva("Digite números inteiros🔢")
-           leia(numero)
-enquanto(numero!=0)
-contador = contador +1
+		d = (b*b) - (4*a*c)
 
-se(numero==0)
-      pare 
-
-se(numero>maior)
- maior=numero
-
- escreva("maior número digitado foi: ", maior)
-  escreva("Você digitou ", contador, " números")
-
+		escreva("X1 = ", (-b + m.raiz(d, 2.0)) / (2*a), "\n")
+		escreva("X2 = ", (-b - m.raiz(d, 2.0)) / (2*a))
+	}
   }
 }
